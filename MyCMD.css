@@ -1,0 +1,61 @@
+body{              			/*Страница целиком*/
+	background-color: black;/*Цвет фона черный*/
+}
+table{ 																				      /*Окно вывода*/
+	background-image: url(http://farm3.staticflickr.com/2741/4031324961_9c678e2e0b_o.jpg);/*Фоновое изображение*/
+	background-size: 100%;																  /*Изображение занимает 100% области таблицы*/		
+	/*background-image: url(https://sun9-42.userapi.com/c639716/v639716281/64b5/AkUparrZmqQ.jpg);*/
+}
+#String_cmd{             	/*Строка ввода*/
+	width: 1120px;       	/*Ширина*/
+	height: 30px;        	/*Высота*/
+	color : #588900;        /*Цвет*/
+	font-size :25px;        /*Размер шрифта*/
+	background-color :black;/*Фоновый цвет*/
+	border-color: #588900;	/*Цвет оболочки*/
+
+} 
+#Clear_cmd{ 				/*Кнопка ввода*/
+	width: 120px;			/*Ширина*/
+	height: 40px;			/*Высота*/
+	font-size: 20px;		/*Размер шрифта*/
+	color : #588900;		/*Цвет текста*/
+	background-color: black;/*Цвет заднего фона*/
+	border-color :#588900;	/*Цвет оболочки*/
+}
+p3{					 		/*Параметры для параграфа*/
+	color: #588900;  		/*Цвет параграфа*/
+	font-size : 20px;		/*Размер шрифта*/
+}
+dir{	 			 		/*Параметры для дир*/
+	font-size : 20px;		/*Размер шрифта*/
+	color : #481ee3; 		/*Цвет шрифта*/
+}
+ul {				 		/*Параметры для ul*/	
+	color : #588900; 		/*Цвет шрифта*/
+	font-size : 20px;		/*Размер шрифта*/
+}
+p2{							/*Параметры для параграфа №2*/
+	color : #481ee3;		/*Цвет параграфа*/
+}
+#List1{						/*Параметры для List 1*/
+	color: #481ee3; 		/*Цвет Листа 1*/
+}
+#List2{						/*Параметры для List 2*/	
+	color : #481ee3;		/*Цвет Листа 2*/
+}
+#List3{
+	color : #481ee3;
+}
+#List4{
+	color : #481ee3;
+}
+input::-webkit-input-placeholder { /*Параметры для подсказки в поле input*/
+  				 color: #481ee3;   /*Цвет подсказки input*/
+  				}
+a{							/*Параметры для ссылок*/
+	color : #481ee3; 		/*Цвет ссылки*/
+	font-size : 40px; 		/*Размер шрифта*/
+	text-decoration : none; /*Убрать подчеркивание у ссылки*/
+ }
+
